@@ -40,7 +40,7 @@ body {
 }
 
 #card {
-  width: 960px;
+  max-width: 600px;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -63,13 +63,13 @@ body {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-style: italic;
-  font-size: 60px;
+  font-size: 45px;
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
   color: #FFF;
 }
 
 #card-inside {
-  font-size: 1.2em;
+  font-size: 0.9em;
   line-height: 1.4;
 font-family: 'Lobster';
   color: #331717;
@@ -204,7 +204,7 @@ font-family: 'Lobster', cursive;
 .cake_and_velas {
   position: absolute;
   bottom: 25%;
-  left: 0;
+  left: -30px;
   right: 0;
   overflow: hidden;
 }
@@ -220,7 +220,7 @@ font-family: 'Lobster', cursive;
   border-radius: 10px;
   position: absolute;
   top: 228px;
-  left: 50%;
+  left: 60%;
   margin-left: -2.4px;
   margin-top: -8.33333333px;
   width: 5px;
