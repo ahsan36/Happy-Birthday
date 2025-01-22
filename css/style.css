@@ -8,7 +8,7 @@
 body {
   background: #E5E5E5;
   background-image: url("bg.jpg");
-  width: 100vh;
+  width:150vh;
 }
 
 #card-front {
@@ -26,11 +26,11 @@ body {
 }
 
 #card-front, #card-inside {
-  width: 50%;
+  width: 35%;
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   position: absolute;
-  left: 50%;
+  left: 30%;
 }
 
 #card-inside .wrap {
@@ -63,13 +63,13 @@ body {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-style: italic;
-  font-size: 70px;
+  font-size: 60px;
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
   color: #FFF;
 }
 
 #card-inside {
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 1.4;
 font-family: 'Lobster';
   color: #331717;
@@ -379,7 +379,7 @@ font-family: 'Lobster', cursive;
 
 .polaroid {
   width: 240x;
-  height: 400px;
+  height: 350px;
   position: absolute;
   float: left;
   background: #1e1c18;
